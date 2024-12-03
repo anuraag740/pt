@@ -1,0 +1,81 @@
+.container{
+  width:50%;
+  margin-inline: 10px;
+  margin-top: 10px;
+  border: 1px solid black; 
+}
+
+body{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+
+
+
+nav{
+  display: flex;
+  justify-content:flex-end;
+font-size: 2rem;
+font-family: "calibri";
+margin: 2px;
+padding: 10px;
+text-align: center;
+font-family:"calibri" ;
+}
+
+.logo{
+margin-inline: 50rem;
+margin: 1rem;
+margin-left: 1000px;
+color: black;
+}
+
+.vi{
+margin-right: auto;
+margin: 2rem;
+}
+
+.co{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+  line-height: 2.5rem;
+  color: black;
+font-family: sans-serif;
+}
+main{
+  font-family:sans-serif ;
+}
+footer{
+  font-family: sans-serif;
+}
+
+
+.projects{
+margin-right: auto;
+margin: 1rem;
+}
+
+.bs{
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.cks{
+  color: black;
+}
+
+.clo{
+  color: black; 
+}
+
+.Afk{
+  margin-right: auto;
+  margin: 0.5em;
+  text-align: right;
+  
+  }
+  
