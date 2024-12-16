@@ -1,0 +1,67 @@
+body{
+    background-color: #f8f8f8;
+    font-family: "helvetica neue";
+    
+
+}
+.container{
+    display:grid;
+    grid-template-areas:'a b b'
+    'c d e' ;
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:300px 300px 300px ;
+    gap:5px;
+    justify-content: center;
+ 
+   
+    
+
+}
+
+.box1{
+
+grid-area: a;
+color:black;
+
+padding:10px;
+
+}
+.box2{
+
+grid-area:b;
+background-image: url(https://cdn.prod.website-files.com/6707d86e7409f5ecdc8d5243/6707d86e7409f5ecdc8d52f8_asset_paged_2.webp) ;
+background-size:contain;
+background-position:center ;
+color:white;
+padding:10px;
+
+}
+.box3{
+
+grid-area:c;
+padding: 10px;
+
+}
+.box4{
+    
+    grid-area:d;
+    padding:10px;
+   
+}
+.box5{
+   
+    grid-area: e;
+    color:black;
+    padding:10px;
+
+
+}
+img{
+    width: 300px;
+
+}
+button{
+    float: right;
+    text-align: justify;
+}
