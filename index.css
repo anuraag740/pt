@@ -3,23 +3,26 @@
     margin: 0;
 }
 body{
-    background-image: url(https://wallpaperaccess.com/full/2877459.jpg);
+    background-image: url('https://wallpaperaccess.com/full/4711385.jpg');
     background-color:white;
     background-repeat: no-repeat; 
-    background-size: cover;
+   
     background-position: center;
     font-size: larger;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
 
+}
+table{
+    border-color: black;
 }
 h1{
     
     
     font-size: larger;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-top: 30px;  
     margin-bottom: 30px;
@@ -41,13 +44,25 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: yellow;
+    color: black;
 
 }
 body .aboutme{
    margin: 30px;
-    background-color:white;
-    color: black;
    
+    color: black;
     border-radius: 20px;
+    padding: 10px;
+}
+.aboutme img
+{
+    width: 100px;
+    display:block;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-bottom: 10px;
+   border-radius: 10px;
+}
+.bm{
+    padding: 15px;
 }
